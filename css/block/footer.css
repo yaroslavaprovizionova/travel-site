@@ -1,0 +1,17 @@
+/* FOOTER BLOCK */
+
+.footer {
+  max-width: 950px;
+  width: auto;
+  height: 35px;
+  margin: 0 auto;
+  margin-top: -35px;
+}
+
+.footer__text {
+  max-width: 950px;
+  width: auto;
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+}

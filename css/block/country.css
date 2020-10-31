@@ -1,0 +1,60 @@
+/* COUNTRY BLOCK */
+
+.country-section {
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.country__img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* OPTION MENU */
+.option-wr {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.optional__item{
+  height: auto;
+}
+
+.optional__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  color: #969696;
+}
+
+.optional__text{
+  margin-top: 10px;
+}
+
+.fas.optional-icon{
+  height: 30px;
+  padding: 15px;
+  border: 1px solid #969696;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #333;
+}
+
+.fas.optional-icon:hover {
+  color: #f26326;
+  border: 1px solid  #f26326;
+  transition: all .2s linear;
+}
+
+.optional__link:hover {
+  color: #f26326;
+  transition: color .2s linear;
+}

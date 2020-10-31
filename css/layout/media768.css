@@ -1,0 +1,156 @@
+/* ===================
+768 * 950
+==================== */
+@media screen and (max-width: 949px) {
+  h1{
+    margin-bottom: 15px;
+  }
+  .submenu {
+    width: 130px;
+  }
+
+  .submenu__item {
+    padding-left: 18px;
+  }
+
+  .logo__text {
+    width: auto;
+  }
+
+  .option-wr {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  .maincontent {
+    justify-content: space-between;
+    width: auto;
+  }
+
+  .content {
+    width: auto;
+  }
+
+  .gallery-wrap {
+    margin: 10px 0;
+  }
+
+  .gallery__img-big {
+    height: 320px;
+  }
+
+  .gallery__img-mdl-1,
+  .gallery__img-mdl-2 {
+    height: 155px;
+    margin-right: 5px;
+  }
+  
+  .gallery__img-sm {
+    height: 90px;
+  }
+
+  .gallery__img-text {
+    right: 10px;
+    bottom: 70px;
+    font-size: 12px;
+  }
+
+  .gall-modal-wrap {
+    max-width: 930px;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .gall-modal__header {
+  height: 32px;
+  }
+
+  .gall-modal__main-prev,
+  .gall-modal__main-next{
+    width: 10%;
+  }
+
+  .gall-modal__main-prev-arr,
+  .gall-modal__main-next-arr {
+    width: 85px;
+    height: 85px;
+  }
+
+  .gall-modal__main-img {
+    height: 80%;
+  }
+
+  .gall-modal__all-ph-wr {
+    margin-bottom: 250px;
+  }
+
+  .country__img {
+    margin-bottom: 10px;
+  }
+
+  .sidebar{
+    flex-shrink: 1;
+  }
+
+  .card__container {
+    margin: 10px 10px 0 10px;
+
+  }
+
+  .card-block__right {
+    padding-right: 0;
+  }
+
+
+  .card-block {
+    margin-left: 10px;
+  }
+
+  .card-img__link {
+    width: 180px;
+    height: 190px;
+  }
+
+  .card-block__title-link {
+    width: 70%;
+    margin: 0;
+  }
+
+  .card-block__timer {
+    top: -30px;
+    margin-right: 20px;
+  }
+
+  .card__sale-text {
+    font-size: 14px;
+  }
+
+  .card-block__left {
+    height: auto;
+  }
+
+  .card-block__stars,
+    .card-block__room,
+    .card-block__eat,
+    .card-block__plane,
+    .card-block__raiting {
+    margin-top: 8px;
+    line-height: 18px;
+    color: #424242;
+    margin-top: 0;
+  }
+
+  .card-block__right {
+    width: 120px;
+  }
+
+  .timer-numbers span {
+    font-size: 14px;
+  }
+
+  .map-hotel__container {
+    width: auto;
+    height: 240px;
+    margin: 10px;
+  }
+  
+}
