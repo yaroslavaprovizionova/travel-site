@@ -1,0 +1,28 @@
+/* layout */
+@import url('./layout/base.css');
+
+/* blocks */
+@import url('./block/header.css');
+@import url('./block/slider.css');
+@import url('./block/menu.css');
+@import url('./block/mainBlock.css');
+@import url('./block/country.css');
+@import url('./block/gallery.css');
+@import url('./block/modalGalleryWind.css');
+@import url('./block/cards.css');
+@import url('./block/sidebar.css');
+@import url('./block/footer.css');
+
+@import url('./layout/media768.css');
+@import url('./layout/media480.css');
+@import url('./layout/media320.css');
+@import url('./layout/media240.css');
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,151 @@
+
+/* MENU BLOCK */
+
+.menu {
+  position: relative;
+}
+
+.menu__list {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 65px;
+  border: 1px solid #202020;
+  text-align: justify;
+  background: #333;
+  font-size: 0;
+}
+
+.menu__list:after {
+  content: "";
+  width: 100%;
+  height: 0;
+  display: inline-block;
+  font-size: 0;
+}
+
+.menu__item {
+  display: inline-block;
+  position: relative;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.menu__link_arrow::after {
+  content: '\f107';
+  font-family: 'FontAwesome';
+  margin-left: 10px;
+}
+
+.menu__link:hover,
+.submenu__link:hover,
+.menu__link-active {
+  color: #128aa7;
+  transition: color .1s linear;
+}
+
+/* SUBMENU BLOCK */
+
+.submenu {
+  position: absolute;
+  top:100%;
+  left:50%;
+  z-index: 20;
+  transform: translateX(-40%);
+  width: 150px;
+  padding-top: 8px;
+  visibility: hidden;
+  opacity: 0;
+  background: #333;
+  -webkit-box-shadow: -9px 10px 8px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: -9px 10px 8px -4px rgba(0,0,0,0.75);
+  box-shadow: -9px 10px 8px -4px rgba(0,0,0,0.75);
+}
+
+.menu__list li:hover > ul.submenu {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity .2s linear;
+}
+
+.submenu__item {
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #808080;
+}
+
+.submenu__item:first-child {
+  border-top: 1px solid #808080;
+}
+
+.submenu__link {
+  padding-bottom: 15px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* GAMBURGER MENU */
+
+#menuToggle {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-top: 2px;
+}
+
+#menuToggle input {
+  position: absolute;
+  z-index: 100; 
+  display: flex;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  opacity: 0;
+
+}
+
+#menuToggle span{
+  width: 30px;
+  height: 4px;
+  margin-bottom: 6px;
+  border-radius: 4px;
+  background: #7f8fa6;
+  transition: all .5s cubic-bezier(.08,.81,.87,.71);
+}
+
+#span1 {
+  transform-origin: 4px 0px;
+}
+
+#span3 {
+  transform-origin: bottom right;
+}
+
+#menuToggle input:checked ~ #span1 {
+  background-color: #f26326;
+  transform: rotate(45deg) translate(5px);
+}
+
+#menuToggle input:checked ~ #span2 {
+  background-color: #f26326;
+  transform: rotate(495deg) translate(1px);
+}
+
+#menuToggle input:checked ~ #span3 {
+  background-color: #f26326;
+  transform: rotate(45deg);
+  opacity: 0;
+}

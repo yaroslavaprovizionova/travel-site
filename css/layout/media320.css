@@ -1,0 +1,197 @@
+/* ===================
+320 * 479
+==================== */
+@media screen and (max-width: 479px){
+
+  .header, 
+  .footer,
+  .footer__text,
+  .gall-modal-wrap,
+  .container {
+    max-width: 479px;
+    width: auto;
+  }
+
+  .logo {
+    width: 300px;
+  }
+
+  .logo__img {
+    left: 20px;
+  }
+
+  .gall-modal-wrap {
+    max-width: 450px;
+    width: auto;
+  }
+  
+  h1{
+    margin: 0px 0 15px 45px;
+    font-size: 20px;
+  }
+
+  .contacts {
+    top:-90px;
+  }
+  
+  .country__icon{
+    width: 32px;
+    height: 32px;
+    margin: 0 8px;
+  }
+
+  .slider__prev,
+  .slider__next {
+    width: 40px;
+  }
+
+  .fas.fa-angle-left,
+   .fas.fa-angle-right {
+    font-size: 25px;
+    left: 25%;
+    top: 40%;
+  }
+
+  .slider__dots {
+    display: none;
+  }
+
+  #menuToggle{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 5px;
+  }
+
+  .menu__list{
+    display: none;
+    width: 90%;
+  }
+
+  .menu__item {
+    display: block;
+    margin: 0 30px 0 50px;
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0;
+  }
+
+  .submenu {
+    width: 140px;
+    left: 70%;
+  }
+
+  .menu__link,
+  .submenu__link{
+    font-size: 14px;
+  }
+
+  .country-section {
+    padding: 10px 15px;
+  }
+
+  .option-wr {
+    flex-wrap: wrap;
+  }
+
+  .optional__text {
+    margin-top: 8px;
+    font-size: 12px;
+  }
+
+  .fas.optional-icon {
+    width: 18px;
+    height: 18px;
+    padding: 8px;
+    font-size: 18px;
+  }
+
+  .optional__text {
+    margin-top: 8px;
+    font-size: 7px;
+  }
+
+  .gallery__img-sm {
+    height: 70px;
+  }
+  
+  .gallery__img-text{
+    bottom: 125px;
+  }
+
+  .gall-modal__main{
+    max-height: 70%;
+    margin-top: 0;
+  }
+
+  .gall-modal__main-prev,
+  .gall-modal__main-next{
+    width: 10%;
+  }
+
+  .gall-modal__main-prev-arr,
+  .gall-modal__main-next-arr {
+    width: 30px;
+    height: 30px;
+  }
+
+  .gall-modal__all-ph-wr {
+    margin-bottom: 20px;
+    padding-bottom: 0;
+  }
+
+  .gall-modal__all-ph-img {
+    width: 28%;
+  }
+
+  .breadcrumbs {
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+  }
+  
+  .cards {
+    margin-top: 0;
+  }
+
+  .card__sale {
+    left: 45px;
+  }
+
+  .card__container{
+    flex-direction: column;
+  }
+
+  .card-img__link {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .card-block__right {
+    padding-right: 10px;
+  }
+
+  .fas {
+    width: 15px;
+    height: 15px;
+    font-size: 13px;
+  }
+
+  .card-block__price-number {
+    padding-top: 0;
+    font-size: 15px;
+  }
+
+  .timer-numbers {
+    font-size: 0;
+  }
+
+  .card-block__timer {
+    top: -178px;
+    right: 15px;
+    background-color: #fff;
+  }
+  
+}
