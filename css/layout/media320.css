@@ -2,7 +2,11 @@
 320 * 479
 ==================== */
 @media screen and (max-width: 479px){
-
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  
   .header, 
   .footer,
   .footer__text,

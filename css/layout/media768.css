@@ -2,6 +2,11 @@
 768 * 950
 ==================== */
 @media screen and (max-width: 949px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  
   h1{
     margin-bottom: 15px;
   }
